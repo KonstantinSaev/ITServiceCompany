@@ -1,0 +1,186 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'Geometry soft';
+    src: url("../fonts/GeometrySoft.otf");
+}
+
+#main-article {
+    position: relative;
+}
+
+#main-font {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 20px 0 50px;
+}
+
+#four-small-sections {
+    /*start of box*/
+    height: 426px;
+    flex: 0 0 20%;
+}
+
+#media .biggest-left-image {
+    height: 96%;
+    padding: 10px;
+    background: url('../../lib/icons/Анотиране 2021-09-07 162556.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#small-top-left {
+    height: 194px;
+    padding: 10px;
+    background: url(../../lib/icons/modis_finalll.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#small-top-right {
+    height: 194px;
+    padding: 10px;
+    background: url('../../lib/icons/laptopppppp.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#small-bottom-left {
+    height: 194px;
+    padding: 10px;
+    background: url('../../lib/icons/togetherrr.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#small-bottom-right {
+    height: 194px;
+    padding: 10px;
+    background: url('../../lib/icons/kosio and stella_final.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#who-we-are {
+    /*start of text fields*/
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 26px;
+    padding: 0 0 20px;
+}
+
+#why-devin {
+    margin-top: 20px;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 26px;
+    padding: 0 0 20px;
+}
+
+#who-block-text {
+    line-height: 1.3;
+    margin-right: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 0 20px;
+}
+
+#why-block-text {
+    line-height: 1.3;
+    margin-right: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 0 20px;
+}
+
+#sponsors {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 0 0 20px;
+}
+
+
+/*.holder-two {
+    height: 372px;
+    background-color: royalblue;
+}*/
+
+.logo2 {
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*  .logo {
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}*/
+.smule {
+    width: 351px;
+    height: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 85px;
+    padding-left: 60px;
+}
+.modis {
+    width: 425px;
+    height: 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.teva {
+    width: 333px;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 190px;
+    padding-left: 80px;
+}
+.cc {
+    width: 440px;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.pad-img {
+    padding-top: 90px;
+}

@@ -1,0 +1,65 @@
+﻿#pojects-article {
+    position: relative;
+}
+
+#main-title {
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px 0 50px;
+}
+
+
+/*#cards {
+    display: flex;
+}
+ 
+.flexed {
+    display: flex;
+}
+ 
+.sideways-text {
+    font-weight: 400;
+    font-size: 19px;
+    transform: rotate(-90deg);
+}
+ 
+.big-box {
+    height: 365px;
+    padding-bottom: 10px;
+    background-color: springgreen;
+    flex: 1;
+}
+*/
+
+#amtis {
+    width: 100%;
+}
+
+    #amtis .item {
+        width: 100%;
+    }
+
+        #amtis .item span {
+            position: absolute;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: 800;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            left: 0;
+            bottom: -10px;
+            margin-bottom: 30px;
+        }
+
+        #amtis .item .box {
+            width: calc(100% - 25px);
+            height: 365px;
+            background: green;
+            float: right;
+            margin-bottom: 30px;
+        }
+.lines {
+    width: 320px;
+    height: 365px;
+    overflow: hidden;
+}

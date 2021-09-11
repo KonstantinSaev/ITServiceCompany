@@ -1,0 +1,26 @@
+﻿#main-title {
+    font-weight: 600;
+    font-size: 37px;
+    padding: 20px 0 50px;
+}
+
+#header {
+    display: flex;
+    margin: 0 auto;
+}
+
+#parag {
+    font-size: 18px;
+    padding-bottom: 39px;
+}
+
+#imp-text {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 18px;
+}
+
+#question {
+    font-size: 22px;
+    font-weight: 600;
+}

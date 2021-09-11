@@ -1,0 +1,50 @@
+﻿#main-title {
+    font-weight: 600;
+    font-size: 37px;
+    padding: 20px 0 50px;
+}
+
+#inside-team {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+.pad {
+    margin: 0 20px 0 20px;
+}
+
+#picture-frame {
+    /*transform: translateX(65%);*/
+    height: 200px;
+    width: 200px;
+    background-color: plum;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.name-on-each {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.sub-on-each {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.parag {
+    /*width: 350px;*/
+    font-size: 14px;
+    line-height: 1.3;
+    padding-bottom: 80px;
+    text-align: left;
+}
+

@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ITServiceCompany</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/heder/heder.css" />
+    <link rel="stylesheet" href="~/css/footer/footer.css" />
+</head>
+<body>
+    <header id="main-header">
+        <div class="container ">
+            <div class="nav-container padd">
+                <div class="logo-container">
+                    <a asp-controller="Home" asp-action="Index">
+                        <img type="" width="180" height="60" src="~/lib/icons/logo1.svg" />
+                    </a>
+                </div>
+                <nav id="main-nav">
+                    <ul class="d-flex list-unstyled">
+                        <li>
+                            <a asp-controller="Company" asp-action="AboutUs" is-active-route class="main-text">За нас</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Services" asp-action="Service" is-active-route class="main-text">Услуги</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Projects" asp-action="Project" is-active-route class="main-text">Проекти</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Workers" asp-action="OurTeam" is-active-route class="main-text">Нашият екип</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Company" asp-action="ContactUs" is-active-route class="contacts-padding">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="site-footer" id="footer-index">
+        <div class="container">
+            <div class="row">
+                <div id="logo-footer" class="col-md-1">
+                    <img class="d-flex" src="~/lib/icons/logo white.svg" alt="logo" height="73" width="56">
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <ul>
+                        <li id="li-styling">За нас </li>
+                        <li id="li-styling">Услуги</li>
+                        <li id="li-styling">Проекти </li>
+                        <li id="li-styling">Нашият екип</li>
+                        <li id="li-styling"> Свържете се с нас</li>
+                    </ul>
+
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <ul>
+                        <li id="boldname-li">Офис Девин</li>
+                        <li id="li-styling">ул.Шипка 12, Девин, България</li>
+                        <li id="li-styling">Slick@slick.com</li>
+                        <li id="li-styling">+359 0894206969</li>
+
+                    </ul>
+
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <ul>
+                        <li id="boldname-li">Социални мрежи</li>
+                        <li id="li-styling">Facebook</li>
+                        <li id="li-styling">instagram</li>
+                        <li id="li-styling">LinkedIN</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

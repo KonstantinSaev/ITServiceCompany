@@ -1,0 +1,188 @@
+﻿@model List<ITServiceCompany.Services.Models.HomeServiceModel>
+<head>
+    <link rel="stylesheet" href="~/css/Home/index.css" />
+    <link rel="stylesheet" href="~/css/Home/carousel.css" />
+    <link rel="stylesheet" href="~/css/Home/services.css" />
+    <link rel="stylesheet" href="~/css/Home/aboutus.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Slick</title>
+</head>
+
+<!--article-->
+<article id="main-article">
+
+    
+    <div id="box" class="main-img">
+        <h1 class="title-main">Правим чудеса с лекота</h1>
+        <h2 id="secondary-font">Ние сме SLICK!</h2>
+        <a href="#direction" class="scroll">
+            <img type="" width="50" height="30" src="~/lib/icons/arrow-down2.svg" />
+        </a>
+    </div>
+
+</article>
+
+<!--article-->
+
+
+
+<article id="direction">
+    <h3 class="title-main">За Нас</h3>
+    <div class="center-text">
+        <p id="parag">
+            Бяхме екип от ентусиасти през 2016г. Изморени от градския живот, с желание за промяна и развитие ние решихме да се преместим в живописния град Девин.
+            <br><br>Целта ни е все повече млади и мотивирани IT специалисти да работят в малките градове като нашия.
+        </p>
+        <h3 id="imp-text">200 IT специалиста избраха Девин за своя нов дом.</h3>
+        <h4 id="question">А ти от тях ли си?</h4>
+    </div>
+    <img class="img-position" type="" width="550" height="520" src="~/lib/icons/ballons.svg" />
+</article>
+
+
+<!--article-->
+
+
+
+<article id="about">
+    <a class="hover-text"><h3 class="title-main">Услуги</h3></a>
+
+    <div class="mt-4">
+        <div class="row" id="services-page">
+            <div class="col-md-3">
+                <div class="flex-column text-center">
+                    <img class="img-size" type="" src="~/lib/icons/laptop11.svg" />
+                    <h4 class="title1">Разработка <br /> на уеб-сайтове</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="flex-column text-center">
+                    <img class="img-size" type="" src="~/lib/icons/mobile11.svg" />
+                    <h4 class="title1">Разработка <br />на мобилни прилжения</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="flex-column text-center">
+                    <img class="img-size" type="" src="~/lib/icons/pencil11.svg" />
+                    <h4 class="title1">Дизайн <br /> и мултимедия</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="flex-column text-center">
+                    <img class="img-size" type="" src="~/lib/icons/stats-dots11.svg" />
+                    <h4 class="title1">Маркетингова <br />стратегия</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<!--article-->
+<article id="our-projects">
+    <h3 class="title-main">Нашите проекти</h3>
+    <div class="row" id="media">
+        <div class="col-3 raound">
+            <div class="png-project">
+                <img class="border imgg" src="~/lib/projects/screenshot-www.devin-bg.com-2021.09.06-16_03_11.png" alt="Община Девин" width="500" height="500">
+            </div>
+            <div class="textformat-projects">Община Девин</div>
+        </div>
+        <div class="col-3 raound">
+            <div class="png-project">
+                <img class="border imgg" src="~/lib/projects/screenshot-ismena.bg-2021.09.06-15_45_19.png" alt="Хотел Исмена" width="500" height="500">
+            </div>
+            <div class="textformat-projects">Хотел Исмена</div>
+        </div>
+        <div class="col-3 raound">
+            <div class="png-project">
+                <img class="border imgg" src="~/lib/projects/screenshot-devin.bg-2021.09.06-15_27_15.png" alt="Devin АД" width="500" height="500">
+            </div>
+            <div class="textformat-projects">Девин АД</div>
+        </div>
+        <div class="col-3 raound">
+            <div class="png-project">
+                <img class="border imgg" src="~/lib/projects/screenshot-www.smule.com-2021.09.06-16_20_14.png" alt="Smule" width="500" height="500">
+            </div>
+            <div class="textformat-projects">Smule</div>
+        </div>
+    </div>
+</article>
+
+
+<!--carousel-->
+<article>
+    <div class="container my-3">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <h3 class="title-main">Екипът ни</h3>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row" id="inside-team">
+                        <div class="col-4">
+                            <div><img id="picture-frame" class="imgg" src="~/lib/photos/alexaaaaa.png" alt="Smule" width="500" height="500"></div>
+                            <h4 class="name-on-each">Алекса Тачев</h4>
+                            <h5 class="sub-on-each">Project Manager</h5>
+                        </div>
+                        <div class="col-4">
+                            <div><img id="picture-frame" class="imgg" src="~/lib/photos/kosioooo.png" href= alt="Smule" width="500" height="500"></div>
+                            <h4 class="name-on-each">Константин Саев</h4>
+                            <h5 class="sub-on-each">Back-end Developer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row" id="inside-team">
+                        <div class="col-4">
+                            <div><img class="imgg" src="~/lib/photos/hristoooo.png" href= alt="Smule" width="500" height="500"></div>
+                            <h4 class="name-on-each">Христо Панев</h4>
+                            <h5 class="sub-on-each">Back-end Developer</h5>
+                        </div>
+                        <div class="col-4">
+                            <div><img class="imgg" src="~/lib/photos/zoriii.png" href= alt="Smule" width="500" height="500"></div>
+                            <h4 class="name-on-each">Зорница Артинова</h4>
+                            <h5 class="sub-on-each">Front-end developer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row" id="inside-team">
+                        <div class="col-4">
+                            <div id="picture-frame"><img class="imgg" src="~/lib/photos/stelala.png" href= alt="Smule" width="500" height="500"></div>
+                            <h4 class="name-on-each">Стела Вълкова</h4>
+                            <h5 class="sub-on-each">Graphic designer</h5>
+                        </div>
+                        <div class="col-4">
+                            <div id="picture-frame">
+                                <img class="imgg" src="~/lib/photos/ivannn.png" href= alt="Smule" width="500" height="500">
+                            </div>
+                            <h4 class="name-on-each">Иван Наков</h4>
+                            <h5 class="sub-on-each">Front-end developer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row" id="inside-team">
+                        <div class="col-4">
+                            <div id="picture-frame"><img class="imgg" src="~/lib/photos/stoqnkaaaaa.png" href= alt="Smule" width="500" height="500"></div>
+                            <h4 class="name-on-each">Стоянка Димитрова</h4>
+                            <h5 class="sub-on-each">Marketing Expert</h5>
+                        </div>
+                        <div class="col-4">
+                            <div id="picture-frame"><img class="imgg" src="~/lib/photos/reniii.png" href= alt="Smule" width="500" height="500"></div>
+                            <h4 class="name-on-each">Ренета Никoлова</h4>
+                            <h5 class="sub-on-each">Photo & Video Editing</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <img class="arrow" type="" width="50" height="30" src="~/lib/icons/arrow-left11.svg" />
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <img class="arrow" type="" width="50" height="30" src="~/lib/icons/arrow-right11.svg" />
+            </a>
+        </div>
+    </div>
+</article>

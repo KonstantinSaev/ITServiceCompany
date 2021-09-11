@@ -1,0 +1,29 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'Geometry soft';
+    src: url("../fonts/GeometrySoft.otf");
+}
+
+.panda {
+    align-items: flex-end;
+    position:absolute;
+    bottom: 18%;
+    left: 0%;
+}
+
+.thankyou-text {
+    align-self: center;
+    font-size: 70px;
+    font-weight: 700;
+    position: absolute;
+    left: 45%;
+}
+.paragp {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 300px;
+    color: white;
+}

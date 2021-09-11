@@ -393,4 +393,3 @@ E:\AzMoga\ITServiceCompany\ITServiceCompany\obj\Debug\net5.0\Razor\Views\Company
 E:\AzMoga\ITServiceCompany\ITServiceCompany\bin\Debug\net5.0\SendGrid.dll
 E:\AzMoga\ITServiceCompany\ITServiceCompany\bin\Debug\net5.0\StarkbankEcdsa.dll
 E:\AzMoga\ITServiceCompany\ITServiceCompany\obj\Debug\net5.0\Razor\Views\Company\Finish.cshtml.g.cs
-E:\AzMoga\ITServiceCompany\ITServiceCompany\obj\Debug\net5.0\Razor\Views\Projects\Test.cshtml.g.cs

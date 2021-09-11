@@ -17,7 +17,6 @@
 
             return View(viewModel);
         }
-
-        public IActionResult Test() => View();
+      
     }
 }

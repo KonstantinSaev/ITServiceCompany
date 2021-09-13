@@ -20,6 +20,7 @@
         [MaxLength(WorkerNameMaxLength)]
         public string Name { get; set; }
 
+
         [Required]
         [MinLength(WorkerDescriptionMinLength)]
         public string Description { get; set; }
